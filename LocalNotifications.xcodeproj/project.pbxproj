@@ -12,7 +12,7 @@
 		0D17462F1E912851002B724B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D17462E1E912851002B724B /* Assets.xcassets */; };
 		0D1746321E912851002B724B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1746301E912851002B724B /* LaunchScreen.storyboard */; };
 		0D17463D1E912851002B724B /* LocalNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D17463C1E912851002B724B /* LocalNotificationsTests.swift */; };
-		0D1746481E912AEA002B724B /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1746471E912AEA002B724B /* ToDoTableViewController.swift */; };
+		0D1746481E912AEA002B724B /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1746471E912AEA002B724B /* TodoTableViewController.swift */; };
 		0D17464A1E912B27002B724B /* TodoSchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1746491E912B27002B724B /* TodoSchedulingViewController.swift */; };
 		0D17464C1E913B48002B724B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D17464B1E913B48002B724B /* ToDoItem.swift */; };
 		0D17464E1E913D77002B724B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D17464D1E913D77002B724B /* ToDoList.swift */; };
@@ -38,7 +38,7 @@
 		0D1746381E912851002B724B /* LocalNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D17463C1E912851002B724B /* LocalNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsTests.swift; sourceTree = "<group>"; };
 		0D17463E1E912851002B724B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D1746471E912AEA002B724B /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		0D1746471E912AEA002B724B /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 		0D1746491E912B27002B724B /* TodoSchedulingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoSchedulingViewController.swift; sourceTree = "<group>"; };
 		0D17464B1E913B48002B724B /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		0D17464D1E913D77002B724B /* ToDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 				0D1746301E912851002B724B /* LaunchScreen.storyboard */,
 				0D1746331E912851002B724B /* Info.plist */,
 				0D1746271E912851002B724B /* AppDelegate.swift */,
-				0D1746471E912AEA002B724B /* ToDoTableViewController.swift */,
+				0D1746471E912AEA002B724B /* TodoTableViewController.swift */,
 				0D1746491E912B27002B724B /* TodoSchedulingViewController.swift */,
 				0D17464B1E913B48002B724B /* ToDoItem.swift */,
 				0D17464D1E913D77002B724B /* ToDoList.swift */,
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D17464A1E912B27002B724B /* TodoSchedulingViewController.swift in Sources */,
-				0D1746481E912AEA002B724B /* ToDoTableViewController.swift in Sources */,
+				0D1746481E912AEA002B724B /* TodoTableViewController.swift in Sources */,
 				0D17464E1E913D77002B724B /* ToDoList.swift in Sources */,
 				0D17464C1E913B48002B724B /* ToDoItem.swift in Sources */,
 				0D1746281E912851002B724B /* AppDelegate.swift in Sources */,
@@ -433,6 +433,7 @@
 				0D1746431E912851002B724B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D1746441E912851002B724B /* Build configuration list for PBXNativeTarget "LocalNotificationsTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +442,7 @@
 				0D1746461E912851002B724B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
