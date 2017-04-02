@@ -15,6 +15,7 @@
 		0D17464A1E912B27002B724B /* TodoSchedulingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1746491E912B27002B724B /* TodoSchedulingViewController.swift */; };
 		0D17464C1E913B48002B724B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D17464B1E913B48002B724B /* ToDoItem.swift */; };
 		0D17464E1E913D77002B724B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D17464D1E913D77002B724B /* ToDoList.swift */; };
+		0DB4CF161E91766000C7FD84 /* LocalNotifications in Resources */ = {isa = PBXBuildFile; fileRef = 0DB4CF151E91766000C7FD84 /* LocalNotifications */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0D1746491E912B27002B724B /* TodoSchedulingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoSchedulingViewController.swift; sourceTree = "<group>"; };
 		0D17464B1E913B48002B724B /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		0D17464D1E913D77002B724B /* ToDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		0DB4CF151E91766000C7FD84 /* LocalNotifications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LocalNotifications; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		0D1746261E912851002B724B /* LocalNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				0DB4CF151E91766000C7FD84 /* LocalNotifications */,
 				0D17462B1E912851002B724B /* Main.storyboard */,
 				0D17462E1E912851002B724B /* Assets.xcassets */,
 				0D1746301E912851002B724B /* LaunchScreen.storyboard */,
@@ -190,6 +193,7 @@
 				0D1746321E912851002B724B /* LaunchScreen.storyboard in Resources */,
 				0D17462F1E912851002B724B /* Assets.xcassets in Resources */,
 				0D17462D1E912851002B724B /* Main.storyboard in Resources */,
+				0DB4CF161E91766000C7FD84 /* LocalNotifications in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
