@@ -13,13 +13,13 @@
         <!--Title-->
         <scene sceneID="IwI-xg-1iQ">
             <objects>
-                <tableViewController id="skL-Lf-R76" customClass="TodoTableViewController" customModule="LocalNotifications" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="skL-Lf-R76" customClass="ToDoTableViewController" customModule="LocalNotifications" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hm2-fI-C0c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="todoCell" textLabel="Qz1-MS-5P3" detailTextLabel="nOY-VA-YZd" style="IBUITableViewCellStyleSubtitle" id="tt2-do-GcD">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="toDoCell" textLabel="Qz1-MS-5P3" detailTextLabel="nOY-VA-YZd" style="IBUITableViewCellStyleSubtitle" id="tt2-do-GcD">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tt2-do-GcD" id="Udw-tj-4Nz">
@@ -78,12 +78,19 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="resignKeyboard:" destination="AuJ-te-d7E" eventType="editingDidEndOnExit" id="qz7-g3-pQr"/>
+                                </connections>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="sEI-md-hxY">
                                 <rect key="frame" x="28" y="118" width="320" height="216"/>
+                                <gestureRecognizers/>
                                 <date key="date" timeIntervalSinceReferenceDate="512830909.829243">
                                     <!--2017-04-02 13:01:49 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="resignKeyboard:" destination="AuJ-te-d7E" eventType="valueChanged" id="fyg-6K-GJa"/>
+                                </connections>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-UZ-rWX">
                                 <rect key="frame" x="16" y="342" width="343" height="27"/>
@@ -110,7 +117,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="dealinePicker" destination="sEI-md-hxY" id="9W8-vd-spm"/>
+                        <outlet property="deadlinePicker" destination="sEI-md-hxY" id="T7X-zp-4R8"/>
                         <outlet property="titleField" destination="anS-BL-GL3" id="nvs-GE-Ysm"/>
                     </connections>
                 </viewController>
